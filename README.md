@@ -21,8 +21,8 @@ Con estos comandos solamente **solamente yo aceptaré los cambios** para que no 
 >
 > `git push -u origin *nombre-de-la-branch*`
 >
-> `qgit checkout master`
+> `git checkout master`
 >
 > `git pull origin master`
 > 
-> En este punto no se habrán subido aún sus cambios sino una petición para que se acepten los cambios que hicieron.
+> En este punto no se habrán subido aún sus cambios, tienen que esperar a que yo los acepte.
