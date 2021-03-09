@@ -1,0 +1,21 @@
+﻿<Window x:Class="ProyectoParcial.MenuRecepcionista"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoParcial"
+        mc:Ignorable="d"
+        Title="MenuRecepcionista" Height="800" Width="1200">
+    <Grid Background="#FF97E0D3">
+        <Image HorizontalAlignment="Left" Height="99" Margin="26,26,0,0" VerticalAlignment="Top" Width="120" Source="LogoVet.png"/>
+        <Label Content="Veterinaria Patitas&#xD;&#xA;" HorizontalAlignment="Left" Margin="372,26,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="48" Height="62"/>
+        <Button Content="Buscar mascota" HorizontalAlignment="Left" Height="123" Margin="93,173,0,0" VerticalAlignment="Top" Width="458" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click"/>
+        <Button Content="Registrar Dueño" HorizontalAlignment="Left" Height="123" Margin="93,369,0,0" VerticalAlignment="Top" Width="458" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click_2"/>
+        <Button Content="Buscar Dueño" HorizontalAlignment="Left" Height="123" Margin="642,173,0,0" VerticalAlignment="Top" Width="458" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click_1"/>
+        <Button Content="Agendar Cita" HorizontalAlignment="Left" Height="128" Margin="93,561,0,0" VerticalAlignment="Top" Width="458" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click_5"/>
+        <Button Content="Registrar Mascota" HorizontalAlignment="Left" Height="123" Margin="642,369,0,0" VerticalAlignment="Top" Width="458" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click_3"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Height="128" Margin="642,561,0,0" VerticalAlignment="Top" Width="458" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click_4"/>
+        <Label Content="Selecciona una acción" HorizontalAlignment="Left" Margin="460,97,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+
+    </Grid>
+</Window>

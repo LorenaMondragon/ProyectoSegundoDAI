@@ -1,0 +1,32 @@
+﻿<Window x:Class="ProyectoParcial.RRegistrarDueno1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoParcial"
+        mc:Ignorable="d"
+        Title="RRegistrarDueno1" Height="800" Width="1200">
+    <Grid Background="#FF97E0D3">
+        <Image HorizontalAlignment="Left" Height="115" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Source="LogoVet.png"/>
+        <Label Content="Llena los campos para registrar al dueño:&#xD;&#xA;" HorizontalAlignment="Left" Margin="262,32,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="36"/>
+        <Label Content="*Si el dueño ya fue registrado no podrás registrarlo dos veces" HorizontalAlignment="Left" Margin="268,97,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="RFC:&#xD;&#xA;" HorizontalAlignment="Left" Margin="108,239,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="Nombre(s):&#xD;&#xA;" HorizontalAlignment="Left" Margin="108,315,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="Apellido paterno:" HorizontalAlignment="Left" Margin="108,397,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="Apellido materno:" HorizontalAlignment="Left" Margin="108,473,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="Dirección:" HorizontalAlignment="Left" Margin="108,555,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="411,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="411,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="411,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="411,473,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="411,555,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Button Content="Registrar" HorizontalAlignment="Left" Height="118" Margin="871,247,0,0" VerticalAlignment="Top" Width="242" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click_1"/>
+        <Button Content="Regresar&#xD;&#xA;" HorizontalAlignment="Left" Height="118" Margin="871,460,0,0" VerticalAlignment="Top" Width="242" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click"/>
+        <Label Content="Teléfono 1:" HorizontalAlignment="Left" Margin="108,647,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="Teléfono 2:" HorizontalAlignment="Left" Margin="499,647,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="262,647,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontFamily="Arial Rounded MT Bold" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="665,647,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontFamily="Arial Rounded MT Bold" FontSize="22"/>
+
+    </Grid>
+</Window>

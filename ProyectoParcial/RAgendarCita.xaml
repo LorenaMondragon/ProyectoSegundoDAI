@@ -1,0 +1,24 @@
+﻿<Window x:Class="ProyectoParcial.RAgendarCita"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoParcial"
+        mc:Ignorable="d"
+        Title="RAgendarCita" Height="800" Width="1200">
+    <Grid Background="#FF97E0D3">
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" Source="LogoVet.png"/>
+        <Label Content="Llena los campos para agregar la cita:&#xD;&#xA;" HorizontalAlignment="Left" Margin="262,17,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="36"/>
+        <Label Content="Fecha:" HorizontalAlignment="Left" Margin="85,206,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="Hora:" HorizontalAlignment="Left" Margin="85,284,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="RFC (dueño):&#xD;&#xA;" HorizontalAlignment="Left" Margin="85,365,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Label Content="Veterinario que atiende:" HorizontalAlignment="Left" Margin="85,452,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="431,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="431,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="431,365,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="431,452,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+        <Button Content="Regresar" HorizontalAlignment="Left" Height="98" Margin="246,569,0,0" VerticalAlignment="Top" Width="287" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36" Click="Button_Click"/>
+        <Button Content="Agendar" HorizontalAlignment="Left" Height="98" Margin="748,569,0,0" VerticalAlignment="Top" Width="287" Background="#FF4FAF94" FontFamily="Arial Rounded MT Bold" FontSize="36"/>
+
+    </Grid>
+</Window>
